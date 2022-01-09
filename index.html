@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfile</title>
+    <title>Portfolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,22 +31,70 @@
         <img src="Img/moon.png" id="moon" alt="">
         <img src="Img/mountain_back.png" id="mountain_back" alt="">
         <h2 id='text'>Moon Light</h2>
-        <a href="#" id="btn">Explore</a>
+        <a href="#sec" id="btn">Explore</a>
         <img src="Img/mountain_front.png" id="mountain_front" alt="">
     </section>
-    <div class="sec">
+    <div class="sec" id="sec">
         <h2> Parallax Scrolling Effects</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus iusto harum, architecto odio eos ad,
             nemo cupiditate tempora autem blanditiis amet molestiae corporis asperiores velit perferendis quasi aperiam
             error illo.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus iusto harum, architecto
-            odio eos ad,
+            odio eos ad, nemo cupiditate tempora autem blanditiis amet molestiae corporis asperiores velit perferendis
+            quasi aperiam
+            error illo.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus iusto harum, architecto
+            odio eos ad, nemo cupiditate tempora autem blanditiis amet molestiae corporis asperiores velit perferendis
+            quasi aperiam
+            error illo. <br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus iusto harum,
+            architecto odio eos ad,
             nemo cupiditate tempora autem blanditiis amet molestiae corporis asperiores velit perferendis quasi aperiam
             error illo.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus iusto harum, architecto
-            odio eos ad,
+            odio eos ad, nemo cupiditate tempora autem blanditiis amet molestiae corporis asperiores velit perferendis
+            quasi aperiam
+            error illo.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus iusto harum, architecto
+            odio eos ad, nemo cupiditate tempora autem blanditiis amet molestiae corporis asperiores velit perferendis
+            quasi aperiam
+            error illo. <br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus iusto harum,
+            architecto odio eos ad,
             nemo cupiditate tempora autem blanditiis amet molestiae corporis asperiores velit perferendis quasi aperiam
-            error illo.
+            error illo.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus iusto harum, architecto
+            odio eos ad, nemo cupiditate tempora autem blanditiis amet molestiae corporis asperiores velit perferendis
+            quasi aperiam
+            error illo.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus iusto harum, architecto
+            odio eos ad, nemo cupiditate tempora autem blanditiis amet molestiae corporis asperiores velit perferendis
+            quasi aperiam
+            error illo. <br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus iusto harum,
+            architecto odio eos ad,
+            nemo cupiditate tempora autem blanditiis amet molestiae corporis asperiores velit perferendis quasi aperiam
+            error illo.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus iusto harum, architecto
+            odio eos ad, nemo cupiditate tempora autem blanditiis amet molestiae corporis asperiores velit perferendis
+            quasi aperiam
+            error illo.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus iusto harum, architecto
+            odio eos ad, nemo cupiditate tempora autem blanditiis amet molestiae corporis asperiores velit perferendis
+            quasi aperiam
+            error illo. <br><br>
         </p>
     </div>
+    <script>
+        let stars = document.getElementById("stars");
+        let moon = document.getElementById("moon");
+        let mountain_back = document.getElementById("mountain_back");
+        let text = document.getElementById("text");
+        let btn = document.getElementById("btn");
+        let mountain_front = document.getElementById("mountain_front");
+        let header = document.querySelector("header");
+
+        window.addEventListener("scroll", function () {
+            let value = window.scrollY;
+            stars.style.left = value * 0.25 + "px";
+            moon.style.top = value * 1.05 + "px";
+            mountain_back.style.top = value * 0.5 + "px";
+            mountain_front.style.top = value * 0 + "px";
+            text.style.marginRight = value * 4 + "px";
+            text.style.marginTop = value * 1.5 + "px";
+            btn.style.marginTop = value * 1.5 + "px";
+            header.style = value * 0.5 + "px";
+        })
+    </script>
 </body>
 
 </html>
