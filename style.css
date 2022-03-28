@@ -140,16 +140,14 @@ z-index: 10;
     color: #fff;
 }
 
-.works {
-    width: 100%;
+.projetos {
+    max-width: 100%;
     height: 130vh;
 
-    
     background: linear-gradient(#1c0522, #5B246E, #BB66AD);
-
 }
 
-#text-works {
+#projetos-texto-principal {
     font-size: 3em;
     color: #E6E0E6;
     display: flex;
@@ -158,29 +156,50 @@ z-index: 10;
     font-family: "Cardo";
 }
 
-.works li {
-    display: flex;
-    flex-direction: row;
+.projetos li {
+    
     list-style: none;
-   text-decoration: none;
-   align-items: center;
-   margin-left: 7.352941176470588vw ;
+    text-decoration: none;
+    position: absolute;
 }
 
-.works li a{
+.projetos li a{
     text-decoration: none;
+
     color: #E6E0E6;
     font-size: 2.7941176470588234vw;
     font-family: "Cardo";
-    padding-top:  4.8vh;
-    font-weight: 300;
-    margin-left: 1.4705882352941178vw;
-    
+    font-weight: 300;    
+}
+
+#projetos-calendario-texto {
+    right: 57%;
+    top: 365%;
+
+}
+
+#projetos-lista-texto {
+    right: 30%;
+    top: 382%; 
+        
 }
 
 
 
-.works h5 {
+#projetos-google-texto {
+    right: 63%;
+    top: 400%; 
+}
+
+
+
+#projetos-spotify-texto{     
+    right: 53%;
+    top: 424%; 
+}
+
+
+.projetos h5 {
     color: #fff;
     margin-left: 7.352941176470588vw;
     font-weight: 400;
@@ -273,20 +292,15 @@ z-index: 10;
     
 }
 
-#projeto-img {
+#projetos-img-fundo {
     position: absolute;
     top: 312vh;
     left: 13.970588235294118vw;
 }
 
-#calendar-text {
-    position: absolute;
-    top: 360vh;
-    left: 22.794117647058822vw;
-    font-family: "Cardo";
-    font-weight: 300;
-    font-size: 1.1764705882352942vw;
-}
+
+
+
 
 #calendar-text2 {
     position: absolute;
@@ -300,13 +314,7 @@ z-index: 10;
     
 
 
-#lista-text {
-        position: absolute;
-        top: 377.6vh;
-        left: 51.470588235294116vw;
-        font-family: "Cardo";
-        font-weight: 300;
-}
+
 
 #lista-text2 {
     position: absolute;
@@ -318,14 +326,7 @@ z-index: 10;
     width: 35%;
 }
 
-#google-text {
-    position: absolute;
-        top: 394.4vh;
-        left: 19.852941176470587vw;
-        font-family: "Cardo";
-        font-weight: 300;
-    
-}
+
 
 #google-text2 {
     position: absolute;
@@ -336,14 +337,7 @@ z-index: 10;
 
 }
 
-#spotify-text{
-        position: absolute;
-        top: 418.4vh;
-        left: 29.41176470588235vw;
-        font-family: "Cardo";
-        font-weight: 300;
 
-}
 
 #spotify-text2 {
     position: absolute;
