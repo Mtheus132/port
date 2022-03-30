@@ -160,12 +160,12 @@ z-index: 10;
     
     list-style: none;
     text-decoration: none;
-    position: absolute;
 }
 
 .projetos li a{
     text-decoration: none;
 
+    
     color: #E6E0E6;
     font-size: 2.7941176470588234vw;
     font-family: "Cardo";
@@ -173,12 +173,14 @@ z-index: 10;
 }
 
 #projetos-calendario-texto {
+    position: absolute;
     right: 57%;
     top: 365%;
 
 }
 
 #projetos-lista-texto {
+    position: absolute;
     right: 30%;
     top: 382%; 
         
@@ -187,13 +189,15 @@ z-index: 10;
 
 
 #projetos-google-texto {
+    position: absolute;
     right: 63%;
     top: 400%; 
 }
 
 
 
-#projetos-spotify-texto{     
+#projetos-spotify-texto{  
+    position: absolute;   
     right: 53%;
     top: 424%; 
 }
