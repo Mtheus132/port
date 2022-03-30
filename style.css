@@ -356,8 +356,8 @@ z-index: 10;
 .contato {
     width: 100%;
     height: 200%;
-    background: linear-gradient(#BB66AD, #5B246E, #1c0522);
-
+    background: linear-gradient(#1c0522, #5B246E, #BB66AD);
+    
 }
 
 
@@ -402,13 +402,13 @@ z-index: 10;
 
 #img-fundo-contato {
     position: absolute;
-    top: 2700px;
+    top: 1905px;
     left: 200px;
 }
 
 #obrigado-text {
     position: absolute;
-    top: 2870px;
+    top: 2070px;
     font-size: 70px;
     font-family: "Cardo";
     color: #fff;
