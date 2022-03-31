@@ -1,6 +1,5 @@
-* 
-{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
@@ -57,7 +56,7 @@ header ul li a {
     border-radius: 20px;
 }
 
-header ul li a:hover, 
+header ul li a:hover,
 header ul li a.active {
     background-color: #fff;
     color: #2b1055;
@@ -101,7 +100,7 @@ section img#moon {
 }
 
 section img#mountain_front {
-z-index: 10;
+    z-index: 10;
 }
 
 #text {
@@ -114,7 +113,7 @@ z-index: 10;
 }
 
 #btn {
-    text-decoration:none;
+    text-decoration: none;
     display: inline-block;
     padding: 0.5882352941176471vw 2.2058823529411766vw;
     border-radius: 2.9411764705882355vw;
@@ -124,11 +123,13 @@ z-index: 10;
     z-index: 9;
     transform: translateY(16vh);
 }
+
 .sec {
     position: relative;
     padding: 7.352941176470588vw;
     background: #1c0522;
 }
+
 .sec h2 {
     font-size: 3.5em;
     margin-bottom: 1.6vh;
@@ -157,19 +158,19 @@ z-index: 10;
 }
 
 .projetos li {
-    
+
     list-style: none;
     text-decoration: none;
 }
 
-.projetos li a{
+.projetos li a {
     text-decoration: none;
 
-    
+
     color: #E6E0E6;
     font-size: 2.7941176470588234vw;
     font-family: "Cardo";
-    font-weight: 300;    
+    font-weight: 300;
 }
 
 #projetos-calendario-texto {
@@ -182,8 +183,8 @@ z-index: 10;
 #projetos-lista-texto {
     position: absolute;
     right: 30%;
-    top: 382%; 
-        
+    top: 382%;
+
 }
 
 
@@ -191,15 +192,15 @@ z-index: 10;
 #projetos-google-texto {
     position: absolute;
     right: 63%;
-    top: 400%; 
+    top: 400%;
 }
 
 
 
-#projetos-spotify-texto{  
-    position: absolute;   
+#projetos-spotify-texto {
+    position: absolute;
     right: 53%;
-    top: 424%; 
+    top: 424%;
 }
 
 
@@ -228,10 +229,10 @@ z-index: 10;
     width: 29.41176470588235vw;
     height: 64vh;
 
-    margin-top:  8vh;
+    margin-top: 8vh;
 
-     color: #1c0522;
-     background-color: #1c0522;
+    color: #1c0522;
+    background-color: #1c0522;
 }
 
 
@@ -255,13 +256,13 @@ z-index: 10;
     position: absolute;
     top: 9.6vh;
     left: 38.60294117647059vw;
-    
+
 }
 
 #sobre-texto {
     width: 47.794117647058826vw;
     font-size: 1.3235294117647058vw;
-    
+
 }
 
 .campo-chat li {
@@ -292,8 +293,8 @@ z-index: 10;
 #traco {
     width: 73.52941176470588vw;
     height: 16vh;
-    
-    
+
+
 }
 
 #projetos-img-fundo {
@@ -315,7 +316,7 @@ z-index: 10;
     font-size: 1.1764705882352942vw;
     width: 40%;
 }
-    
+
 
 
 
@@ -334,10 +335,10 @@ z-index: 10;
 
 #google-text2 {
     position: absolute;
-        top: 400vh;
-        left: 42.64705882352941vw;
-        font-family: "Cardo";
-        font-weight: 300;
+    top: 400vh;
+    left: 42.64705882352941vw;
+    font-family: "Cardo";
+    font-weight: 300;
 
 }
 
@@ -357,7 +358,7 @@ z-index: 10;
     width: 100%;
     height: 200%;
     background: linear-gradient(#1c0522, #5B246E, #BB66AD);
-    
+
 }
 
 
@@ -367,48 +368,48 @@ z-index: 10;
     height: 320vh;
     top: 368vh;
     left: -25.735294117647058vw;
-    
+
 }
 
 
 
 #icone-icone-insta {
-    margin-left: 2.2058823529411766vw ;
+    margin-left: 2.2058823529411766vw;
 }
 
 #icone-likedin {
-    margin-left: 2.2058823529411766vw ;
+    margin-left: 2.2058823529411766vw;
 }
 
 #icone-email {
     width: 8.088235294117647vw;
     margin-left: 2.2058823529411766vw;
-   
+
 }
 
 #icone-git {
-    width: 8.088235294117647vw; 
-    margin-left: 2.2058823529411766vw ;
-    
+    width: 8.088235294117647vw;
+    margin-left: 2.2058823529411766vw;
+
 }
 
-.todos-icones{
-    display: flex; 
+.todos-icones {
+    display: flex;
     margin-left: 29.41176470588235vw;
-    padding-top: 130px;
+    padding-top: 240px;
     padding-bottom: 100px;
 
 }
 
 #img-fundo-contato {
     position: absolute;
-    top: 1905px;
+    top: 2005px;
     left: 200px;
 }
 
 #obrigado-text {
     position: absolute;
-    top: 2070px;
+    top: 2170px;
     font-size: 70px;
     font-family: "Cardo";
     color: #fff;
